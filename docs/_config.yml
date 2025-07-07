@@ -11,13 +11,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Shuvom Dhar"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
-name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
-description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+subtitle                 : "My CV Website"
+name                     : "Shuvom Dhar" # &name is a YAML anchor which can be *referenced later
+description              : "This is Shuvom Dhar’s personal portfolio and CV website."
+url                      : https://shuvomdhar.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -82,11 +82,13 @@ og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter d
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person # Person or Organization (defaults to Person)
+  name                   : Shuvom Dhar # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/mmistakes"
-    - "https://www.facebook.com/michaelrose"
+    - "https://github.com/shuvomdhar"
+    - "https://www.linkedin.com/in/shuvom-dhar/"
+    - "https://leetcode.com/u/shuvom_dhar/"
+    - "https://www.hackerrank.com/profile/shuvomdhar8"
 
 # Analytics
 analytics:
@@ -99,22 +101,22 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : "/assets/images/michael-rose.jpg"
-  bio              : "Just another *boring*, *tattooed*, *time traveling*, *designer*."
-  location         : "Buffalo, NY"
+  avatar           : "/assets/images/my photo.jpeg"
+  bio              : "Passionate Software Engineer interested in Data Science and Machine Learning, focused on using technology to address real-world challenges and drive positive change while being environmentally conscious. Committed to merging technical skills with social responsibility for meaningful impact."
+  location         : "Kolkata, India"
   links:
     - label: "Made Mistakes"
       icon: "fas fa-fw fa-link"
-      url: "https://mademistakes.com"
+      url: "https://www.linkedin.com/in/shuvom-dhar/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://x.com/shuvom_dhar_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/shuvomdhar"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://www.instagram.com/shuvom_dhar_/"
 
 
 # Site Footer
@@ -122,13 +124,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://x.com/shuvom_dhar_"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/shuvomdhar"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://www.instagram.com/shuvom_dhar_/"
 
 
 # Reading Files
